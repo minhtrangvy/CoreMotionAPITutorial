@@ -15,6 +15,7 @@
 		05574D4B1BBCFA8000D0C68B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05574D491BBCFA8000D0C68B /* LaunchScreen.storyboard */; };
 		05574D561BBCFA8000D0C68B /* CoreMotionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05574D551BBCFA8000D0C68B /* CoreMotionTestTests.swift */; };
 		05574D611BBCFA8000D0C68B /* CoreMotionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05574D601BBCFA8000D0C68B /* CoreMotionTestUITests.swift */; };
+		05574D6F1BBCFBDA00D0C68B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05574D6E1BBCFBDA00D0C68B /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		05574D5C1BBCFA8000D0C68B /* CoreMotionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05574D601BBCFA8000D0C68B /* CoreMotionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionTestUITests.swift; sourceTree = "<group>"; };
 		05574D621BBCFA8000D0C68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05574D6E1BBCFBDA00D0C68B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05574D6F1BBCFBDA00D0C68B /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		05574D311BBCFA7F00D0C68B = {
 			isa = PBXGroup;
 			children = (
+				05574D6E1BBCFBDA00D0C68B /* CoreMotion.framework */,
 				05574D3C1BBCFA8000D0C68B /* CoreMotionTest */,
 				05574D541BBCFA8000D0C68B /* CoreMotionTestTests */,
 				05574D5F1BBCFA8000D0C68B /* CoreMotionTestUITests */,
